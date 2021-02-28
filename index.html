@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About me</title>
+	<link rel="shortcut icon" href="https://sun9-46.userapi.com/impg/OJLOXw449nFN-i_5JI2AOXYfogYqjZTd9gv64g/5uDTeC5b_kk.jpg?size=818x818&quality=96&sign=28afa1af4321c6ba45e06fa890a93043&type=album">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="header">
+		<section class="container">
+			<div class="header__title">
+				<h1>Page about me</h1>
+				<h2>@redh3ad</h2>
+			</div>
+		</section>
+	</header>
+	<main class="main">
+		<section class="container">
+			<article class="main__name">
+				<div class="main__name-fio">
+					<p>My name is Matyas Egor Aleksandrovich. I'm from Minsk, Belarus.</p>
+				</div>
+				<div class="main__name-photo">
+					<img src="https://sun9-46.userapi.com/impg/OJLOXw449nFN-i_5JI2AOXYfogYqjZTd9gv64g/5uDTeC5b_kk.jpg?size=818x818&quality=96&sign=28afa1af4321c6ba45e06fa890a93043&type=album" alt="My photo" width="250">
+				</div>
+			</article>
+			<article class="main__why">
+				<div class="main__why-info">
+					<h3>Why I'm here</h3>
+					<p>Recently I started to study Frontend, I liked it very much and took it on. I began to deepen my knowledge in this area, read a lot and watched videos, along the way practicing layout. Having learned about the courses, I decided to sign up with friends so that the spirit of rivalry would also motivate.</p>
+				</div>
+			</article>
+			<article class="main__skills">
+				<div class="main__skills-info">
+					<h3>What I know</h3>
+					<p>I studied in detail HTML, CSS. Know a little C++, C# and methodology BEM, actively learning JavaScript.</p>
+				</div>
+			</article>
+			<article class="main__code">
+				<div class="main__code-sample">
+					<h3>Sample code</h3>
+					<pre>
+let calculator = {
+	read(){
+		this.a = +prompt('Введите первое число:', '');
+		this.b = +prompt('Введите второе число:', '');
+	},
+	sum(){
+		return this.a + this.b;
+	},
+	mul(){
+		return this.a * this.b;
+	}
+					};
+calculator.read();
+alert( calculator.sum() );
+alert( calculator.mul() );
+				</code>
+				</div>
+			</article>
+		</section>
+	</main>
+	<footer class="footer">
+		<section class="container">
+			<div class="footer__year-body">
+				<div class="footer__year">
+					<a href="https://app.rs.school" name="RSS">
+						<img src="https://rs.school/images/rs_school-og.png" alt="rsschool" width="100px">
+					</a>
+					<h1>2021</h1>
+				</div>
+				<div class="footer__contacts">
+					<p>Contact with me:</p>
+					<ul class="footer__contacts-social">
+						<li><a href="mailto:play.filin@gmail.com">Mail</a></li>
+						<li><a href="https://github.com/redh3ad">GitHUB</a></li>
+						<li><a href="https://vk.com/red_h3ad">Vkontakte</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</footer>
+</body>
+</html>

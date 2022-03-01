@@ -1,2 +1,7 @@
 # rsschool-cv
-[Link on my Markdown CV](https://redh3ad.github.io/rsschool-cv/cv)
+
+### Links:
+
+#### - [Markdown CV](https://redh3ad.github.io/rsschool-cv/cv)
+
+#### - [HTML & CSS CV](https://redh3ad.github.io/rsschool-cv/)
